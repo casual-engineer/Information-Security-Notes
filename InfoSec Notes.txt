@@ -1,0 +1,35 @@
+Social Engineering:
+
+1. job offer social engineering
+2. nice people social engineeringe
+3. OSINT = media, public govenrment data, commerical data, and academic publications
+4. phising, spear phising, smshing, vishing, shoulder surfing, tailgating, whaling, credential harvesting, hoax, eavesdropping, water hole attack, typo squatting
+5. pretexting (impersonation)
+6. spear phising
+7. clean desk policy
+8. pharming
+9. access control vestibules
+10. eliciting information (asking questions)
+11. reconnaissance (data scavenging)
+12. MITRE (government funded research organization)
+13. hoaxes (billions of dollars lost)
+14. no joking at work! (cost time and money)
+15. baiting (usb drive)
+16. water hole attack (website malware)
+17. intimidation (give me the money now!)
+18. authority (hi this is John from verizon!)
+19. urgency (limited deal!)
+20. social media (people die because of social engineering)
+
+Malware:
+
+1. virus (excution required) 
+2. worms (self-replicates)
+3. trojan horse (desirable functions but do evil behind-the-scenes)
+4. spyware (windows 10 and windows 11)
+5. rootkits (root permission and complete control of system) (re-image is only way to resolve a rootkit)
+6. adware
+7. ransomware (WannaCry, BadRabbit, SamSam)
+8. cryptomalware
+9. remote access trojans (orifice, netbus, subseven)
+10. fileless malware (non-malware)
