@@ -33,3 +33,233 @@ Malware:
 8. cryptomalware
 9. remote access trojans (orifice, netbus, subseven)
 10. fileless malware (non-malware)
+
+MALWARE CONTINUED:
+
+1. logic bomb
+2. potentially unwanted programs
+3. grayware
+4. keyloggers
+5. kerne-based keylogger
+6. api-based keylogger
+	a. Windows API
+	b. GetAsyncKeyState()
+	c. GetForegroundWindow()
+7. hyper-visor-based keylogger
+8. web form-grabbing keylogger
+9. javascript-based keylogger
+10. memory injection-based keylogger
+11. backdoor program
+	a. control a pc remotely
+12. malware delivery mechanisms
+	a. software (attack vector)
+	b. FTP (insecure protocol)
+	c. P2P networks and bit torrents
+	d. digital advertisements
+	e. removable media
+	f. optical discs
+	g. usb flash drives
+	h. memory cards
+	i. smartphones!!!???
+13. you can't save every computer from malware
+
+PASSWORD ATTACKS:
+
+1. dictionary-based attack
+2. hybrid dictionary-based attack
+3. brute-force attack
+	a. every combination of letters, numbers, and characters (most reliable but most time defficient)
+	b. john the ripper
+	c. cain and abel
+	d. lcp
+	e. 0phtcrack
+	are all programs that perform dictionary, hybrid, and brute-force password cracking
+4. password spraying
+	a. large number of usernames
+	b. few commonly used passwords
+	c. prevents lock-out
+	d. commonly used passwords: Password1, COVID19, or asdasd
+5. rainbow tables
+	a. a precomputed table used to reverse engineer a cryptograpic has function (L0phtCrack)
+
+PHYSICAL ATTACKS:
+
+1. malicious flash drives
+2. malicious usb cables
+3. card cloning attacks
+	a. credit card
+	b. SIM card (v2 stronger than v1)
+	c. badges
+4. skimming
+	a, ATMS
+	b. gas stations
+5. RFID attacks
+
+ADVERSERIAL ARTIFICIAL INTELLIGENCE:
+
+1. tainted training data for machine learning
+	a. attackers can manipulate (taint) training data used for ML implementations to cause errors in the outcome of the ML solution
+
+SUPPLY CHAIN ATTACKS:
+
+1. supply companies are generally known to have weak IT security 
+
+CLOUD COMPUTING ATTACKS:
+
+1. session hijacking
+2. dns attack
+3. cross-site scripting (xss)
+	a. steal cookies and exploit them to access as an authenticaed user to a cloud-based service
+4. sql injection
+5. session riding
+	a. often a cross-sie request forgery (CSRF) attack
+6. ddos
+7. man-in-the-middle cryptographic attack
+	a. data interception & modification
+8. side-channel attack
+	a. place a malicious vm in close proximity to a target cloud server then launching a side-channel attack
+9. authentication attack
+	a. Authentication is a weak point in hosted and virtual services and is frequently targeted. There are many ways to authenticate users, such as based on what a person knows, has, or is. The mechanisms used to secure the authentication process and the method of authentication used are frequent targets of attackers.
+10. API attacks
+	a. Often APIs are configured insecurely. An attacker can take advantage of API misconfigurations to modify, delete, or append data in applications or systems in cloud environments.
+
+CRYPTOGRAPHIC ATTACKS
+
+1. collision
+	a. A collision occurs when two different files end up using the same hash
+	b. md5
+	c. sha-1
+	d. sha-2
+	e. When it comes to cryptography, “perfect hashing” is not possible because usually unknowns are involved, such as the data to be used to create the hash and what hash values have been created in the past. Though perfect is not possible, it is possible to increase collision resistance by using a more powerful hashing algorithm
+2. birthday attack
+	a. A birthday attack is an attack on a hashing system that attempts to send two different messages with the same hash function, causing a collision (similarly to the concept explained in the preceding section)
+3. downgrade attack
+	a. A downgrade attack is a type of cryptographic attack that forces the rollback of a strong algorithm in favor of an older, lower-quality algorithm or mode of operation. Attackers leverage systems that have legacy crypto algorithms typically enabled for backward compatibility with older systems. Downgrade attacks can be performed by attackers in combination with an MITM attack
+
+INJECTION ATTACKS
+
+1. sql injection
+2. dll injection
+3. ldap injection attacks
+	a. The Lightweight Directory Access Protocol is used to maintain a directory of information such as user accounts or other types of objects
+4. xml injection
+
+DIRECTORY TRAVERSAL
+
+1. Directory traversal, path traversal, or the ../ (“dot-dot-slash”) attack, is a method of accessing unauthorized parent (or worse, root) directories. It is often used on web servers that have PHP files and are Linux or UNIX-based, but it can also be perpetrated on Microsoft operating systems (in which case it would be ..\ or the “dot-dot-backslash” attack). It is designed to get access to files such as ones that contain passwords. This access can be prevented by updating the operating system or by checking the code of files for vulnerabilities, otherwise known as fuzzing. For example, a PHP file on a Linux-based web server might have a vulnerable if or include statement, which when attacked properly could give the attacker access to higher directories and the passwd file.
+
+REMOTE CODE EXECUTION
+
+1. rce 
+	a. In arbitrary code execution an attacker obtains control of a target computer through some sort of vulnerability, thus gaining the power to execute commands on that remote computer at will. Programs that are designed to exploit software bugs or other vulnerabilities are often called arbitrary code execution exploits. These types of exploits inject “shellcode” to allow the attacker to run arbitrary commands on the remote computer. This type of attack is also known as remote code execution (RCE) and can potentially allow the attacker to take full control of the remote computer and turn it into a zombie.RCE commands can be sent to the target computer using the URL of a browser or by using the Netcat service, among other methods. To defend against this type of attack, you should update applications, or if the application is being developed by your organization, it should be checked with fuzz testing and strong input validation (client side and server side) as part of the software development lifecycle (SDLC).
+
+RACE CONDITIONS:
+
+1. Race conditions are most commonly associated with computer science and programming. They occur when two computer program processes, or threads, attempt to access the same resource at the same time and cause problems in the system. Race conditions are considered a common issue for multithreaded applications.
+
+MISCELLANEOUS TOPICS:
+
+1. black-box testing
+2. resource exhaustion
+3. ssl stripping
+	a. used in conjunction with MITM
+4. driver manipulation
+
+WIRELESS ATTACKS:
+
+1. evil twin
+	same ssid but monitors data
+3. bluesnarfing
+	access to a wireless device via a bluetooth connection
+4. bluejacking	
+	Bluejacking is the sending of unsolicited messages to Bluetooth-enabled devices such as mobile phones and tablets
+5. disassociation
+6. jamming
+7. radio frequency identifier
+8. near-field communication
+9. initial vector
+
+MISCELLANEOUS TOPICS:
+
+1. ARP cache poisoning
+2. mac flooding
+
+ACTORS AND THREATS
+
+1. script kiddie
+2. hacktivist
+3. criminal syndicates
+4. organized crime
+5. advanced persistent threat (apt)
+6. state actors
+7. shadow IT
+	In shadow IT an employee or a group of employees use IT systems, network devices, software, applications, and services without the approval of the corporate IT department. For example, an engineer may just deploy a physical or virtual server and host his or her own application in it. The engineer may not patch or monitor that system often for any security vulnerabilities. Consequently, threat actors may easily compromise the vulnerable system or application. This problem has grown exponentially in recent years because more companies and individuals are adopting cloud-based applications and services. It is very easy to “spin off” a new virtual machine (VM), container, or storage element in the cloud
+8. authorized hacker (white hat)
+9. unauthorized hacker (black hat)
+10. semi-authorized (gray hat)
+
+ATTACK VECTORS:
+
+1. direct access
+2. wireless
+3. email
+4. supply chain
+5. social media (lives are lost and people go bankrupt because of social media!)
+6. removable media
+7. cloud
+
+MISCELLANEOUS TOPICS:
+
+1. SaaS
+	renting software
+2. IaaS
+	renting infrastructure
+3. PaaS
+	microsoft azure
+	amazon web services
+4. complex passwords are beyond important
+5. zero-day vulnerability
+	A zero-day vulnerability is a type of vulnerability that is disclosed by an individual or exploited by an attacker before the creator of the software can create a patch to fix the underlying issue. Attacks leveraging zero-day vulnerabilities can cause damage even after the creator knows of the vulnerability because it may take time to release a patch to prevent the attacks and fix damage caused by them.
+6. knowledge in C, C++, C#, Python, SQL, JS, HTML, CSS, and other programming languages required for reports to the development team as an INFO SEC analyst
+
+WEAK CONFIGURATIONS:
+
+1. weak encryption
+	salting = randomized hashing
+2. default settings
+	A common adage in the security industry is, “Why do you need hackers if you have default settings and passwords?” Many organizations and individuals leave infrastructure devices such as routers, switches, wireless access points, and even firewalls configured with default passwords
+
+3RD-PARTY RISK
+
+1. access control for contractors
+2. outsourced code development
+3. lack of vendor support
+	a. legacy software poses a big risk
+4. remova temporary files
+	- increases performance and pose a security threat
+5. Periodically check system files
+	- chkdsk /f
+	- sfc /scannow
+6. consider whole disk encryption
+7. update BIOS and/or UEFI
+8. update OS
+9. update antimalware
+10. update the firewall
+11. (optional) create an image of the system
+	After all your configurations and hardening of the OS are complete, you might consider creating an image of the system. Imaging the system is like taking a snapshot of the entire system partition. That information is saved as one large file, or a set of compressed files that can be saved anywhere. It’s kind of like system restore but at another level. The beauty of this process is that you can reinstall the entire image if your system fails or is compromised, quickly and efficiently, with very little configuration necessary. You need to apply only the latest security and AV updates since the image was created. Of course, most imaging software has a price tag involved, but the investment can be well worth the cost if you are concerned about the time needed to get your system back up and running in the event of a failure. This is the basis for standardized images in many organizations. By applying mandated security configurations, updates, and so on, and then taking an image of the system, you can create a snapshot in time that you can easily revert to if necessary, while being confident that a certain level of security is already embedded into the image.
+
+IMPROPER OR WEAK PATCH MANAGEMENT:
+
+1. patch management
+2. trusted operating system
+	- w10
+	- selinux
+	- freebsd
+	- ret hat enterprise server
+	- For an OS to be considered a TOS, the manufacturer of the system must have strong policies concerning updates and patching.
+3. hotfix
+4. patch mangement:
+	1. planning
+	2. testing
+	3. implementing
+	4. auditing
