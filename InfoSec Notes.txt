@@ -33,6 +33,8 @@ Malware:
 8. cryptomalware
 9. remote access trojans (orifice, netbus, subseven)
 10. fileless malware (non-malware)
+11. Software MUST be packaged in an organization to prevent malware-related activites
+12. Enterprise software distribution managers (ex: SCCM and DSM Software Shop) must be used for EVERY software request within any organization serious about risk management!
 
 MALWARE CONTINUED:
 
