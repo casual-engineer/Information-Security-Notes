@@ -341,3 +341,56 @@ core sdlc and devops principles:
 1. code confidentiality
 2. code integrity (anti-tamper)
 3. code availability (authorized user access only)
+
+biometrics:
+1. finger print
+2. iris
+3. retinal
+4. facial recognition
+5. voice recognition
+6. verify me
+
+finger print biometric is easy to bypass
+vein authentication = hard to duplicate
+gait analysis = walking biometric
+false acceptance rate = incorrectly accept an access by an unauthorized user
+false rejection rate = incorrectly reject an access by an authorized user
+equilibrium = increase(FRR) = decrease(FAR) and vice versa
+CER (cross over rate) = percentage at which the FAR and FRR are equal
+
+authentication, authorization, and accounting (aaa): framework for controlling access to computer resources
+
+authentication:
+1. username and password (credentials)
+2. exposed credentials = bad
+
+disk & network redundancy = prevent data loss and prevent network loss
+
+disk redundancy = writing data to 2 or more disks at the same time
+RAID 1 and RAID 5 = most common approach to disk redundancy
+
+raid 0 = disk striping (divides data across a set of hard disks)
+raid 1 = mirroring (duplicates data from one hard disk to another, typically 2 hard disks)
+raid 5 = striping with parity (uses more hard disks and stripes data and parity over all hard disks
+raid 6 = striping with dual parity (similar to raid 5; includes a second parity)
+raid 10 = mirroring a striped set of disks (similar to 1 and 0 where you start with a striped set of disks and then mirror them)
+
+power resiliance:
+1. generators = provides power to spaces and devices during complete power loss, blackouts, or in areas where standard electrical service isn't available. generators range from 800 watts to over 500,000 watts
+2. dual supply = mitigates the failure of a single substation or power feed that might be susceptible to a car hitting light pole or backhoe digging up a power cable
+3. managed power distrbituion unit = a power strip with multiple outputs designed to distribute electrical power to critical equipment
+
+back up types:
+1. full (best protection but time-consuming)
+2. incremental (takes less time and storage space but time-consuming to restore
+3. snapshot (creates fast back ups of specific times but may take more space to restore each snapshot)
+4. differential (takes shorter restore time than incremental but may take more space to restore each snapshot in order)
+5. tape (offers best protection for catastrophic disasters if proper rotation and offsite storage are employed. is costly, very slow to recover and restore; requires specific order)
+6. disk (provides one of the fastest and most complete backup and restore but is costly)
+7. copy
+8. NAS
+9. Cloud
+10. image
+11. online vs offline
+12. off-site storage
+13. distance considerations
