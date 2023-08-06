@@ -265,3 +265,79 @@ IMPROPER OR WEAK PATCH MANAGEMENT:
 	2. testing
 	3. implementing
 	4. auditing
+	
+	on-premise = lan
+off-premise = wan
+saas = renting software
+iaas = renting infrastructure
+paas = renting platforms (sw + hw)
+xaas = renting anything
+cloud service providers:
+1. aws
+2. azure
+3. gcp (google cloud platform)
+
+cloud services trade-off = costs vs security
+msp = deliver application, system, and management services 
+transit gateway = a system that can be used to interconnect a virtual private cloud (VPC) and on-premises networks
+hypervisor = used to create and run vms
+vm sprawl = too many vms deployed reducing resource efficiency and no longer controllable
+vm sprawl cost:
+1. cost
+2. management complexity & overhead
+3. security risks
+4. disk space, cpu, and memory consumption
+5. data protection challenges
+solution to vm sprawl = robust, automated solution to perform audits of the VMs
+
+vm escape
+hyper-jacking: malware compromises a vm and attacks the hyper-visor
+type 1 hypervisor = physical
+type 2 hypervisor = logical (runs ontop of an operating system)
+
+hypervisor security practices:
+1. disconnect unused usb devices
+2. disable clipboard or file-sharing services
+3. perform TPM boot-up checks
+4. monitor and analyze hypervisor logs
+5. apply hypervisor security updates
+
+software development waterfall model = 5-7 phases (linear)
+watefall model:
+1. requirements
+2. design
+3. implementation
+4. verification
+5. maintenance
+
+problem with waterfall = customer requirements change during verification phase
+
+agile = several stages + constant collaboration w/ stakeholders + continuous improvement + iteration at every stage
+
+agile phases:
+1. plan
+2. test
+3. deploy
+4. review
+5. design
+6. develop
+7. launch
+8. repeat
+
+scrum = used by software development teams
+
+qualtiy assurance (qa) = organization creates good quality software
+software integrity measurement = measuring code quality when passed on to the quality assessment (qa)
+SDLC:
+1. planning
+2. developing
+3. testing
+4. deploying
+5. maintaining systems and applications
+
+rapid application development = more emphasis on the process than on the planning
+
+core sdlc and devops principles:
+1. code confidentiality
+2. code integrity (anti-tamper)
+3. code availability (authorized user access only)
